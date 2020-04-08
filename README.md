@@ -4,7 +4,7 @@
 pada todos kali ini,page sudah dipisah menggunakan react router dom
 
 berisi 2 jenis todos 
-1. Function based
+1. Function base
 2. Class base
 
 link netifly : [Netifly](https://newtodosrf.netlify.com/)
