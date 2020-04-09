@@ -10,7 +10,8 @@ import {
 //page
 import Todof from './Todof';
 import Todoc from './Todoc';
-
+import Apiclass from './Apiclass';
+import Apihooks from './Apihooks';
 function Navbar() {
   const { Header, Content, Footer } = Layout;
     return (
@@ -21,6 +22,8 @@ function Navbar() {
           <Menu.Item ><Link to="/">Home</Link> </Menu.Item>
           <Menu.Item ><Link to="/todof">Hooks</Link> </Menu.Item>
           <Menu.Item ><Link to="/todoc">Class</Link> </Menu.Item>
+          <Menu.Item ><Link to="/apiclass">API Class Base</Link> </Menu.Item>
+          <Menu.Item ><Link to="/apihooks">API Hooks Base</Link> </Menu.Item>
         </Menu>
       </Header>
 
@@ -37,6 +40,14 @@ function Navbar() {
 
       <Route  path="/todoc"> 
       <Todoc />
+      </Route>
+
+      <Route  path="/apiclass"> 
+      <Apiclass />
+      </Route>
+
+      <Route  path="/apihooks"> 
+      <Apihooks />
       </Route>
       </Switch>
 
